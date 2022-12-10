@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myresumetemplates">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyResumeTemplates">
+        <activity android:name=".tamplate4"></activity>
+        <activity android:name=".tamplate2" />
+        <activity android:name=".image3" />
+        <activity android:name=".tamplate3" />
+        <activity android:name=".tamplate1" />
+        <activity
+            android:name=".skills4"
+            android:label="Skills"
+            android:parentActivityName=".createprofile4" />
+        <activity
+            android:name=".skills3"
+            android:label="Skills"
+            android:parentActivityName=".createprofile3" />
+        <activity
+            android:name=".skills2"
+            android:label="Skills"
+            android:parentActivityName=".createprofile2" />
+        <activity
+            android:name=".skills1"
+            android:label="Skills"
+            android:parentActivityName=".createprofile1" />
+        <activity android:name=".Forget" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".experience4"
+            android:label="Experience"
+            android:parentActivityName=".createprofile4" />
+        <activity
+            android:name=".experience1"
+            android:label="Experience"
+            android:parentActivityName=".createprofile1" />
+        <activity
+            android:name=".experience2"
+            android:label="Experience"
+            android:parentActivityName=".createprofile2" />
+        <activity
+            android:name=".experience3"
+            android:label="Experience"
+            android:parentActivityName=".createprofile3" />
+        <activity
+            android:name=".education3"
+            android:label="Education"
+            android:parentActivityName=".createprofile3" />
+        <activity
+            android:name=".education2"
+            android:label="Education"
+            android:parentActivityName=".createprofile2" />
+        <activity
+            android:name=".education1"
+            android:label="Education"
+            android:parentActivityName=".createprofile1" />
+        <activity
+            android:name=".education4"
+            android:label="Education"
+            android:parentActivityName=".createprofile4" />
+        <activity
+            android:name=".personaldata3"
+            android:label="Personal Details"
+            android:parentActivityName=".createprofile3" />
+        <activity
+            android:name=".personaldata4"
+            android:label="Personal Details"
+            android:parentActivityName=".createprofile4" />
+        <activity
+            android:name=".personaldata2"
+            android:label="Personal Details"
+            android:parentActivityName=".createprofile2" />
+        <activity
+            android:name=".personaldata1"
+            android:label="Personal Details"
+            android:parentActivityName=".createprofile1" />
+        <activity android:name=".createprofile4" />
+        <activity android:name=".createprofile3" />
+        <activity android:name=".createprofile2" />
+        <activity android:name=".createprofile1" />
+        <activity android:name=".Frontpage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

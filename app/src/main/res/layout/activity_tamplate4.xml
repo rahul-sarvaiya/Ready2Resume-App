@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|top"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/lineard"
+        android:layout_width="wrap_content"
+        android:layout_height="680dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/tmp4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="60dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="center"
+            android:text="Name..."
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:maxWidth="110sp"
+            android:text="Address..."
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fname"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="center"
+            android:text="Phone..."
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="center"
+            android:text="Email..."
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/summ"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address"
+            android:layout_marginLeft="178dp"
+            android:layout_marginTop="-30dp"
+            android:maxWidth="210dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="center"
+            android:text="Summary..."
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+
+
+        <TextView
+            android:id="@+id/cname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/cpos"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:text="company name..."
+            android:textColor="@color/black"
+
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/ccity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cleave"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:text="address..."
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/cpos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/summ"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:text="position..."
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/cjoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cname"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:text="Join..."
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+
+        <TextView
+            android:id="@+id/cleave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cjoin"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="-15dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:text="Leave..."
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+
+        <TextView
+            android:id="@+id/cname2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/cpos2"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:text="company name..."
+            android:textColor="@color/black"
+
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/ccity2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cleave2"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:text="address..."
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/cpos2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ccity"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:text="position..."
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/cjoin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cname2"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:text="Join..."
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+
+        <TextView
+            android:id="@+id/cleave2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cjoin2"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="-15dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:text="Leave..."
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/inst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/educ_major"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:text="Institution..."
+            android:textColor="@color/black"
+            android:textSize="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/educ_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inst"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="-17dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:text="City..."
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/educ_major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cleave2"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="-145dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:text="Major..."
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/educ_gyr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/educ_city"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="left"
+            android:text="Grad year..."
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/educ_summ"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="100dp"
+            android:layout_below="@+id/educ_gyr"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="7dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="center"
+            android:text="Summary..."
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/skill1"
+            android:layout_width="117dp"
+            android:maxWidth="117dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/educ_summ"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="center"
+            android:text="skill1..."
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/skill2"
+            android:layout_width="117dp"
+            android:maxWidth="117dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/skill1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="7dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="center"
+            android:text="skill2..."
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/skill3"
+            android:layout_width="117dp"
+            android:maxWidth="117dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/skill2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="7dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="center"
+            android:text="skill3..."
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_gravity="bottom"
+        android:id="@+id/btnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_500"
+        android:text="PDF" />
+
+
+</LinearLayout>

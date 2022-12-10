@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "973512548486",
+    "project_id": "myresumetemplates-528e5",
+    "storage_bucket": "myresumetemplates-528e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973512548486:android:a777aac0a28de0477db107",
+        "android_client_info": {
+          "package_name": "com.example.myresumetemplates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973512548486-slq0nf45tm825c40qfk7oti234rh68c1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrI3XQAide1S_1dDAKimPMYQ665cVjkps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973512548486-slq0nf45tm825c40qfk7oti234rh68c1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
